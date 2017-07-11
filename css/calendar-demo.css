@@ -1,0 +1,19 @@
+table {
+	border-collapse: collapse;
+}
+
+table, table td, table th {
+	border: 1px solid #CCC;
+}
+
+table td {
+	height: 80px;
+}
+
+table th {
+	width: 130px;
+}
+
+.eventsContainer {
+	position: absolute;
+}

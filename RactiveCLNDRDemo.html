@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Calendar Implementation Using Ractive.js and CLDNR.js</title>
+		<link href="css/calendar-demo.css" rel="stylesheet" type="text/css" />
+		<script src="js/plugins/jquery-1.11.3.min.js"></script>
+		<script src="js/plugins/moment.min.js"></script>
+		<script src="js/plugins/clndr.min.js"></script>
+		<script src="http://cdn.ractivejs.org/latest/ractive.js"></script>
+		<script src="js/demo-ractive.js"></script>
+	</head>
+	<body>
+		<div id="generatedCalendarContainer"></div>
+		
+		<script id="calendarDemoTmpl" type="text/ractive">
+			<table>
+				<caption>{{month}} {{year}}</caption>
+				<thead>
+					<tr>
+						{{#daysOfTheWeek}}
+							<th>{{.}}</th>
+						{{/daysOfTheWeek}}
+					</tr>
+				</thead>
+				<tbody>
+				<!--Use weeks property instead of days. -->
+				{{#weeks}} 
+					<tr>
+						<!--The days used here is from inside weeks property. -->
+						{{#days}}
+							<td>
+								<div class="dayNumber {{classes}}">{{day}}</div>
+								
+								{{#events}}
+									<p>{{title}}</p>
+								{{/events}}
+							</td>
+						{{/days}}
+					</tr>
+				{{/weeks}}
+				</tbody>
+		  </table>
+		</script>
+		
+		<p>This is a workaround for the issue discussed <a href="https://jsfiddle.net/Eyeyarowen/2p35apqq/" target="_blank">here</a>.</p>
+	</body>
+</html>

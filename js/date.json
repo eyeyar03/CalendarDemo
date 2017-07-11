@@ -1,0 +1,1196 @@
+//sample events to use. paste this to mockEvents() in demo-ractive.js
+var events = new Array();
+var event1 = { date: '2017-07-12', title: 'Just a normal day!'};
+var event2 = { date: '2017-08-03', title: 'BIRTHDAY!'};
+var event3 = { date: '2017-06-12', title: 'Independence Day!'};
+events.push(event1);
+events.push(event2);
+events.push(event3);
+return events;
+
+
+
+//Sample data generated from CLDNR.js
+
+{
+   "daysOfTheWeek":[
+      "SUNDAY",
+      "MONDAY",
+      "TUESDAY",
+      "WEDNESDAY",
+      "THURSDAY",
+      "FRIDAY",
+      "SATURDAY"
+   ],
+   "numberOfRows":6,
+   "months":[
+
+   ],
+   "days":[
+      {
+         "day":25,
+         "classes":"day past adjacent-month last-month calendar-day-2017-06-25 calendar-dow-0",
+         "events":[
+
+         ],
+         "date":"2017-06-24T16:00:00.000Z",
+         "properties":{
+            "isInactive":false,
+            "isAdjacentMonth":true,
+            "isToday":false
+         }
+      },
+      {
+         "day":26,
+         "classes":"day past adjacent-month last-month calendar-day-2017-06-26 calendar-dow-1",
+         "events":[
+
+         ],
+         "date":"2017-06-25T16:00:00.000Z",
+         "properties":{
+            "isInactive":false,
+            "isAdjacentMonth":true,
+            "isToday":false
+         }
+      },
+      {
+         "day":27,
+         "classes":"day past adjacent-month last-month calendar-day-2017-06-27 calendar-dow-2",
+         "events":[
+
+         ],
+         "date":"2017-06-26T16:00:00.000Z",
+         "properties":{
+            "isInactive":false,
+            "isAdjacentMonth":true,
+            "isToday":false
+         }
+      },
+      {
+         "day":28,
+         "classes":"day past adjacent-month last-month calendar-day-2017-06-28 calendar-dow-3",
+         "events":[
+
+         ],
+         "date":"2017-06-27T16:00:00.000Z",
+         "properties":{
+            "isInactive":false,
+            "isAdjacentMonth":true,
+            "isToday":false
+         }
+      },
+      {
+         "day":29,
+         "classes":"day past adjacent-month last-month calendar-day-2017-06-29 calendar-dow-4",
+         "events":[
+
+         ],
+         "date":"2017-06-28T16:00:00.000Z",
+         "properties":{
+            "isInactive":false,
+            "isAdjacentMonth":true,
+            "isToday":false
+         }
+      },
+      {
+         "day":30,
+         "classes":"day past adjacent-month last-month calendar-day-2017-06-30 calendar-dow-5",
+         "events":[
+
+         ],
+         "date":"2017-06-29T16:00:00.000Z",
+         "properties":{
+            "isInactive":false,
+            "isAdjacentMonth":true,
+            "isToday":false
+         }
+      },
+      {
+         "day":1,
+         "classes":"day past calendar-day-2017-07-01 calendar-dow-6",
+         "events":[
+
+         ],
+         "date":"2017-06-30T16:00:00.000Z",
+         "properties":{
+            "isInactive":false,
+            "isAdjacentMonth":false,
+            "isToday":false
+         }
+      },
+      {
+         "day":2,
+         "classes":"day past calendar-day-2017-07-02 calendar-dow-0",
+         "events":[
+
+         ],
+         "date":"2017-07-01T16:00:00.000Z",
+         "properties":{
+            "isInactive":false,
+            "isAdjacentMonth":false,
+            "isToday":false
+         }
+      },
+      {
+         "day":3,
+         "classes":"day past calendar-day-2017-07-03 calendar-dow-1",
+         "events":[
+
+         ],
+         "date":"2017-07-02T16:00:00.000Z",
+         "properties":{
+            "isInactive":false,
+            "isAdjacentMonth":false,
+            "isToday":false
+         }
+      },
+      {
+         "day":4,
+         "classes":"day past calendar-day-2017-07-04 calendar-dow-2",
+         "events":[
+
+         ],
+         "date":"2017-07-03T16:00:00.000Z",
+         "properties":{
+            "isInactive":false,
+            "isAdjacentMonth":false,
+            "isToday":false
+         }
+      },
+      {
+         "day":5,
+         "classes":"day past calendar-day-2017-07-05 calendar-dow-3",
+         "events":[
+
+         ],
+         "date":"2017-07-04T16:00:00.000Z",
+         "properties":{
+            "isInactive":false,
+            "isAdjacentMonth":false,
+            "isToday":false
+         }
+      },
+      {
+         "day":6,
+         "classes":"day past calendar-day-2017-07-06 calendar-dow-4",
+         "events":[
+
+         ],
+         "date":"2017-07-05T16:00:00.000Z",
+         "properties":{
+            "isInactive":false,
+            "isAdjacentMonth":false,
+            "isToday":false
+         }
+      },
+      {
+         "day":7,
+         "classes":"day past calendar-day-2017-07-07 calendar-dow-5",
+         "events":[
+
+         ],
+         "date":"2017-07-06T16:00:00.000Z",
+         "properties":{
+            "isInactive":false,
+            "isAdjacentMonth":false,
+            "isToday":false
+         }
+      },
+      {
+         "day":8,
+         "classes":"day past calendar-day-2017-07-08 calendar-dow-6",
+         "events":[
+
+         ],
+         "date":"2017-07-07T16:00:00.000Z",
+         "properties":{
+            "isInactive":false,
+            "isAdjacentMonth":false,
+            "isToday":false
+         }
+      },
+      {
+         "day":9,
+         "classes":"day past calendar-day-2017-07-09 calendar-dow-0",
+         "events":[
+
+         ],
+         "date":"2017-07-08T16:00:00.000Z",
+         "properties":{
+            "isInactive":false,
+            "isAdjacentMonth":false,
+            "isToday":false
+         }
+      },
+      {
+         "day":10,
+         "classes":"day past calendar-day-2017-07-10 calendar-dow-1",
+         "events":[
+
+         ],
+         "date":"2017-07-09T16:00:00.000Z",
+         "properties":{
+            "isInactive":false,
+            "isAdjacentMonth":false,
+            "isToday":false
+         }
+      },
+      {
+         "day":11,
+         "classes":"day past calendar-day-2017-07-11 calendar-dow-2",
+         "events":[
+
+         ],
+         "date":"2017-07-10T16:00:00.000Z",
+         "properties":{
+            "isInactive":false,
+            "isAdjacentMonth":false,
+            "isToday":false
+         }
+      },
+      {
+         "day":12,
+         "classes":"day today event calendar-day-2017-07-12 calendar-dow-3",
+         "events":[
+            {
+               "date":"2017-07-12",
+               "title":"Just a normal day!",
+               "_clndrStartDateObject":"2017-07-11T16:00:00.000Z",
+               "_clndrEndDateObject":"2017-07-11T16:00:00.000Z"
+            }
+         ],
+         "date":"2017-07-11T16:00:00.000Z",
+         "properties":{
+            "isInactive":false,
+            "isAdjacentMonth":false,
+            "isToday":true
+         }
+      },
+      {
+         "day":13,
+         "classes":"day calendar-day-2017-07-13 calendar-dow-4",
+         "events":[
+
+         ],
+         "date":"2017-07-12T16:00:00.000Z",
+         "properties":{
+            "isInactive":false,
+            "isAdjacentMonth":false,
+            "isToday":false
+         }
+      },
+      {
+         "day":14,
+         "classes":"day calendar-day-2017-07-14 calendar-dow-5",
+         "events":[
+
+         ],
+         "date":"2017-07-13T16:00:00.000Z",
+         "properties":{
+            "isInactive":false,
+            "isAdjacentMonth":false,
+            "isToday":false
+         }
+      },
+      {
+         "day":15,
+         "classes":"day calendar-day-2017-07-15 calendar-dow-6",
+         "events":[
+
+         ],
+         "date":"2017-07-14T16:00:00.000Z",
+         "properties":{
+            "isInactive":false,
+            "isAdjacentMonth":false,
+            "isToday":false
+         }
+      },
+      {
+         "day":16,
+         "classes":"day calendar-day-2017-07-16 calendar-dow-0",
+         "events":[
+
+         ],
+         "date":"2017-07-15T16:00:00.000Z",
+         "properties":{
+            "isInactive":false,
+            "isAdjacentMonth":false,
+            "isToday":false
+         }
+      },
+      {
+         "day":17,
+         "classes":"day calendar-day-2017-07-17 calendar-dow-1",
+         "events":[
+
+         ],
+         "date":"2017-07-16T16:00:00.000Z",
+         "properties":{
+            "isInactive":false,
+            "isAdjacentMonth":false,
+            "isToday":false
+         }
+      },
+      {
+         "day":18,
+         "classes":"day calendar-day-2017-07-18 calendar-dow-2",
+         "events":[
+
+         ],
+         "date":"2017-07-17T16:00:00.000Z",
+         "properties":{
+            "isInactive":false,
+            "isAdjacentMonth":false,
+            "isToday":false
+         }
+      },
+      {
+         "day":19,
+         "classes":"day calendar-day-2017-07-19 calendar-dow-3",
+         "events":[
+
+         ],
+         "date":"2017-07-18T16:00:00.000Z",
+         "properties":{
+            "isInactive":false,
+            "isAdjacentMonth":false,
+            "isToday":false
+         }
+      },
+      {
+         "day":20,
+         "classes":"day calendar-day-2017-07-20 calendar-dow-4",
+         "events":[
+
+         ],
+         "date":"2017-07-19T16:00:00.000Z",
+         "properties":{
+            "isInactive":false,
+            "isAdjacentMonth":false,
+            "isToday":false
+         }
+      },
+      {
+         "day":21,
+         "classes":"day calendar-day-2017-07-21 calendar-dow-5",
+         "events":[
+
+         ],
+         "date":"2017-07-20T16:00:00.000Z",
+         "properties":{
+            "isInactive":false,
+            "isAdjacentMonth":false,
+            "isToday":false
+         }
+      },
+      {
+         "day":22,
+         "classes":"day calendar-day-2017-07-22 calendar-dow-6",
+         "events":[
+
+         ],
+         "date":"2017-07-21T16:00:00.000Z",
+         "properties":{
+            "isInactive":false,
+            "isAdjacentMonth":false,
+            "isToday":false
+         }
+      },
+      {
+         "day":23,
+         "classes":"day calendar-day-2017-07-23 calendar-dow-0",
+         "events":[
+
+         ],
+         "date":"2017-07-22T16:00:00.000Z",
+         "properties":{
+            "isInactive":false,
+            "isAdjacentMonth":false,
+            "isToday":false
+         }
+      },
+      {
+         "day":24,
+         "classes":"day calendar-day-2017-07-24 calendar-dow-1",
+         "events":[
+
+         ],
+         "date":"2017-07-23T16:00:00.000Z",
+         "properties":{
+            "isInactive":false,
+            "isAdjacentMonth":false,
+            "isToday":false
+         }
+      },
+      {
+         "day":25,
+         "classes":"day calendar-day-2017-07-25 calendar-dow-2",
+         "events":[
+
+         ],
+         "date":"2017-07-24T16:00:00.000Z",
+         "properties":{
+            "isInactive":false,
+            "isAdjacentMonth":false,
+            "isToday":false
+         }
+      },
+      {
+         "day":26,
+         "classes":"day calendar-day-2017-07-26 calendar-dow-3",
+         "events":[
+
+         ],
+         "date":"2017-07-25T16:00:00.000Z",
+         "properties":{
+            "isInactive":false,
+            "isAdjacentMonth":false,
+            "isToday":false
+         }
+      },
+      {
+         "day":27,
+         "classes":"day calendar-day-2017-07-27 calendar-dow-4",
+         "events":[
+
+         ],
+         "date":"2017-07-26T16:00:00.000Z",
+         "properties":{
+            "isInactive":false,
+            "isAdjacentMonth":false,
+            "isToday":false
+         }
+      },
+      {
+         "day":28,
+         "classes":"day calendar-day-2017-07-28 calendar-dow-5",
+         "events":[
+
+         ],
+         "date":"2017-07-27T16:00:00.000Z",
+         "properties":{
+            "isInactive":false,
+            "isAdjacentMonth":false,
+            "isToday":false
+         }
+      },
+      {
+         "day":29,
+         "classes":"day calendar-day-2017-07-29 calendar-dow-6",
+         "events":[
+
+         ],
+         "date":"2017-07-28T16:00:00.000Z",
+         "properties":{
+            "isInactive":false,
+            "isAdjacentMonth":false,
+            "isToday":false
+         }
+      },
+      {
+         "day":30,
+         "classes":"day calendar-day-2017-07-30 calendar-dow-0",
+         "events":[
+
+         ],
+         "date":"2017-07-29T16:00:00.000Z",
+         "properties":{
+            "isInactive":false,
+            "isAdjacentMonth":false,
+            "isToday":false
+         }
+      },
+      {
+         "day":31,
+         "classes":"day calendar-day-2017-07-31 calendar-dow-1",
+         "events":[
+
+         ],
+         "date":"2017-07-30T16:00:00.000Z",
+         "properties":{
+            "isInactive":false,
+            "isAdjacentMonth":false,
+            "isToday":false
+         }
+      },
+      {
+         "day":1,
+         "classes":"day adjacent-month next-month calendar-day-2017-08-01 calendar-dow-2",
+         "events":[
+
+         ],
+         "date":"2017-07-31T16:00:00.000Z",
+         "properties":{
+            "isInactive":false,
+            "isAdjacentMonth":true,
+            "isToday":false
+         }
+      },
+      {
+         "day":2,
+         "classes":"day adjacent-month next-month calendar-day-2017-08-02 calendar-dow-3",
+         "events":[
+
+         ],
+         "date":"2017-08-01T16:00:00.000Z",
+         "properties":{
+            "isInactive":false,
+            "isAdjacentMonth":true,
+            "isToday":false
+         }
+      },
+      {
+         "day":3,
+         "classes":"day event adjacent-month next-month calendar-day-2017-08-03 calendar-dow-4",
+         "events":[
+            {
+               "date":"2017-08-03",
+               "title":"BIRTHDAY!",
+               "_clndrStartDateObject":"2017-08-02T16:00:00.000Z",
+               "_clndrEndDateObject":"2017-08-02T16:00:00.000Z"
+            }
+         ],
+         "date":"2017-08-02T16:00:00.000Z",
+         "properties":{
+            "isInactive":false,
+            "isAdjacentMonth":true,
+            "isToday":false
+         }
+      },
+      {
+         "day":4,
+         "classes":"day adjacent-month next-month calendar-day-2017-08-04 calendar-dow-5",
+         "events":[
+
+         ],
+         "date":"2017-08-03T16:00:00.000Z",
+         "properties":{
+            "isInactive":false,
+            "isAdjacentMonth":true,
+            "isToday":false
+         }
+      },
+      {
+         "day":5,
+         "classes":"day adjacent-month next-month calendar-day-2017-08-05 calendar-dow-6",
+         "events":[
+
+         ],
+         "date":"2017-08-04T16:00:00.000Z",
+         "properties":{
+            "isInactive":false,
+            "isAdjacentMonth":true,
+            "isToday":false
+         }
+      }
+   ],
+   "month":"July",
+   "year":2017,
+   "eventsThisMonth":[
+      {
+         "date":"2017-07-12",
+         "title":"Just a normal day!",
+         "_clndrStartDateObject":"2017-07-11T16:00:00.000Z",
+         "_clndrEndDateObject":"2017-07-11T16:00:00.000Z"
+      }
+   ],
+   "eventsLastMonth":[
+      {
+         "date":"2017-06-12",
+         "title":"Independence Day!",
+         "_clndrStartDateObject":"2017-06-11T16:00:00.000Z",
+         "_clndrEndDateObject":"2017-06-11T16:00:00.000Z"
+      }
+   ],
+   "eventsNextMonth":[
+      {
+         "date":"2017-08-03",
+         "title":"BIRTHDAY!",
+         "_clndrStartDateObject":"2017-08-02T16:00:00.000Z",
+         "_clndrEndDateObject":"2017-08-02T16:00:00.000Z"
+      }
+   ],
+   "extras":null,
+   "weeks":[
+      {
+         "days":[
+            {
+               "day":25,
+               "classes":"day past adjacent-month last-month calendar-day-2017-06-25 calendar-dow-0",
+               "events":[
+
+               ],
+               "date":"2017-06-24T16:00:00.000Z",
+               "properties":{
+                  "isInactive":false,
+                  "isAdjacentMonth":true,
+                  "isToday":false
+               }
+            },
+            {
+               "day":26,
+               "classes":"day past adjacent-month last-month calendar-day-2017-06-26 calendar-dow-1",
+               "events":[
+
+               ],
+               "date":"2017-06-25T16:00:00.000Z",
+               "properties":{
+                  "isInactive":false,
+                  "isAdjacentMonth":true,
+                  "isToday":false
+               }
+            },
+            {
+               "day":27,
+               "classes":"day past adjacent-month last-month calendar-day-2017-06-27 calendar-dow-2",
+               "events":[
+
+               ],
+               "date":"2017-06-26T16:00:00.000Z",
+               "properties":{
+                  "isInactive":false,
+                  "isAdjacentMonth":true,
+                  "isToday":false
+               }
+            },
+            {
+               "day":28,
+               "classes":"day past adjacent-month last-month calendar-day-2017-06-28 calendar-dow-3",
+               "events":[
+
+               ],
+               "date":"2017-06-27T16:00:00.000Z",
+               "properties":{
+                  "isInactive":false,
+                  "isAdjacentMonth":true,
+                  "isToday":false
+               }
+            },
+            {
+               "day":29,
+               "classes":"day past adjacent-month last-month calendar-day-2017-06-29 calendar-dow-4",
+               "events":[
+
+               ],
+               "date":"2017-06-28T16:00:00.000Z",
+               "properties":{
+                  "isInactive":false,
+                  "isAdjacentMonth":true,
+                  "isToday":false
+               }
+            },
+            {
+               "day":30,
+               "classes":"day past adjacent-month last-month calendar-day-2017-06-30 calendar-dow-5",
+               "events":[
+
+               ],
+               "date":"2017-06-29T16:00:00.000Z",
+               "properties":{
+                  "isInactive":false,
+                  "isAdjacentMonth":true,
+                  "isToday":false
+               }
+            },
+            {
+               "day":1,
+               "classes":"day past calendar-day-2017-07-01 calendar-dow-6",
+               "events":[
+
+               ],
+               "date":"2017-06-30T16:00:00.000Z",
+               "properties":{
+                  "isInactive":false,
+                  "isAdjacentMonth":false,
+                  "isToday":false
+               }
+            }
+         ]
+      },
+      {
+         "days":[
+            {
+               "day":2,
+               "classes":"day past calendar-day-2017-07-02 calendar-dow-0",
+               "events":[
+
+               ],
+               "date":"2017-07-01T16:00:00.000Z",
+               "properties":{
+                  "isInactive":false,
+                  "isAdjacentMonth":false,
+                  "isToday":false
+               }
+            },
+            {
+               "day":3,
+               "classes":"day past calendar-day-2017-07-03 calendar-dow-1",
+               "events":[
+
+               ],
+               "date":"2017-07-02T16:00:00.000Z",
+               "properties":{
+                  "isInactive":false,
+                  "isAdjacentMonth":false,
+                  "isToday":false
+               }
+            },
+            {
+               "day":4,
+               "classes":"day past calendar-day-2017-07-04 calendar-dow-2",
+               "events":[
+
+               ],
+               "date":"2017-07-03T16:00:00.000Z",
+               "properties":{
+                  "isInactive":false,
+                  "isAdjacentMonth":false,
+                  "isToday":false
+               }
+            },
+            {
+               "day":5,
+               "classes":"day past calendar-day-2017-07-05 calendar-dow-3",
+               "events":[
+
+               ],
+               "date":"2017-07-04T16:00:00.000Z",
+               "properties":{
+                  "isInactive":false,
+                  "isAdjacentMonth":false,
+                  "isToday":false
+               }
+            },
+            {
+               "day":6,
+               "classes":"day past calendar-day-2017-07-06 calendar-dow-4",
+               "events":[
+
+               ],
+               "date":"2017-07-05T16:00:00.000Z",
+               "properties":{
+                  "isInactive":false,
+                  "isAdjacentMonth":false,
+                  "isToday":false
+               }
+            },
+            {
+               "day":7,
+               "classes":"day past calendar-day-2017-07-07 calendar-dow-5",
+               "events":[
+
+               ],
+               "date":"2017-07-06T16:00:00.000Z",
+               "properties":{
+                  "isInactive":false,
+                  "isAdjacentMonth":false,
+                  "isToday":false
+               }
+            },
+            {
+               "day":8,
+               "classes":"day past calendar-day-2017-07-08 calendar-dow-6",
+               "events":[
+
+               ],
+               "date":"2017-07-07T16:00:00.000Z",
+               "properties":{
+                  "isInactive":false,
+                  "isAdjacentMonth":false,
+                  "isToday":false
+               }
+            }
+         ]
+      },
+      {
+         "days":[
+            {
+               "day":9,
+               "classes":"day past calendar-day-2017-07-09 calendar-dow-0",
+               "events":[
+
+               ],
+               "date":"2017-07-08T16:00:00.000Z",
+               "properties":{
+                  "isInactive":false,
+                  "isAdjacentMonth":false,
+                  "isToday":false
+               }
+            },
+            {
+               "day":10,
+               "classes":"day past calendar-day-2017-07-10 calendar-dow-1",
+               "events":[
+
+               ],
+               "date":"2017-07-09T16:00:00.000Z",
+               "properties":{
+                  "isInactive":false,
+                  "isAdjacentMonth":false,
+                  "isToday":false
+               }
+            },
+            {
+               "day":11,
+               "classes":"day past calendar-day-2017-07-11 calendar-dow-2",
+               "events":[
+
+               ],
+               "date":"2017-07-10T16:00:00.000Z",
+               "properties":{
+                  "isInactive":false,
+                  "isAdjacentMonth":false,
+                  "isToday":false
+               }
+            },
+            {
+               "day":12,
+               "classes":"day today event calendar-day-2017-07-12 calendar-dow-3",
+               "events":[
+                  {
+                     "date":"2017-07-12",
+                     "title":"Just a normal day!",
+                     "_clndrStartDateObject":"2017-07-11T16:00:00.000Z",
+                     "_clndrEndDateObject":"2017-07-11T16:00:00.000Z"
+                  }
+               ],
+               "date":"2017-07-11T16:00:00.000Z",
+               "properties":{
+                  "isInactive":false,
+                  "isAdjacentMonth":false,
+                  "isToday":true
+               }
+            },
+            {
+               "day":13,
+               "classes":"day calendar-day-2017-07-13 calendar-dow-4",
+               "events":[
+
+               ],
+               "date":"2017-07-12T16:00:00.000Z",
+               "properties":{
+                  "isInactive":false,
+                  "isAdjacentMonth":false,
+                  "isToday":false
+               }
+            },
+            {
+               "day":14,
+               "classes":"day calendar-day-2017-07-14 calendar-dow-5",
+               "events":[
+
+               ],
+               "date":"2017-07-13T16:00:00.000Z",
+               "properties":{
+                  "isInactive":false,
+                  "isAdjacentMonth":false,
+                  "isToday":false
+               }
+            },
+            {
+               "day":15,
+               "classes":"day calendar-day-2017-07-15 calendar-dow-6",
+               "events":[
+
+               ],
+               "date":"2017-07-14T16:00:00.000Z",
+               "properties":{
+                  "isInactive":false,
+                  "isAdjacentMonth":false,
+                  "isToday":false
+               }
+            }
+         ]
+      },
+      {
+         "days":[
+            {
+               "day":16,
+               "classes":"day calendar-day-2017-07-16 calendar-dow-0",
+               "events":[
+
+               ],
+               "date":"2017-07-15T16:00:00.000Z",
+               "properties":{
+                  "isInactive":false,
+                  "isAdjacentMonth":false,
+                  "isToday":false
+               }
+            },
+            {
+               "day":17,
+               "classes":"day calendar-day-2017-07-17 calendar-dow-1",
+               "events":[
+
+               ],
+               "date":"2017-07-16T16:00:00.000Z",
+               "properties":{
+                  "isInactive":false,
+                  "isAdjacentMonth":false,
+                  "isToday":false
+               }
+            },
+            {
+               "day":18,
+               "classes":"day calendar-day-2017-07-18 calendar-dow-2",
+               "events":[
+
+               ],
+               "date":"2017-07-17T16:00:00.000Z",
+               "properties":{
+                  "isInactive":false,
+                  "isAdjacentMonth":false,
+                  "isToday":false
+               }
+            },
+            {
+               "day":19,
+               "classes":"day calendar-day-2017-07-19 calendar-dow-3",
+               "events":[
+
+               ],
+               "date":"2017-07-18T16:00:00.000Z",
+               "properties":{
+                  "isInactive":false,
+                  "isAdjacentMonth":false,
+                  "isToday":false
+               }
+            },
+            {
+               "day":20,
+               "classes":"day calendar-day-2017-07-20 calendar-dow-4",
+               "events":[
+
+               ],
+               "date":"2017-07-19T16:00:00.000Z",
+               "properties":{
+                  "isInactive":false,
+                  "isAdjacentMonth":false,
+                  "isToday":false
+               }
+            },
+            {
+               "day":21,
+               "classes":"day calendar-day-2017-07-21 calendar-dow-5",
+               "events":[
+
+               ],
+               "date":"2017-07-20T16:00:00.000Z",
+               "properties":{
+                  "isInactive":false,
+                  "isAdjacentMonth":false,
+                  "isToday":false
+               }
+            },
+            {
+               "day":22,
+               "classes":"day calendar-day-2017-07-22 calendar-dow-6",
+               "events":[
+
+               ],
+               "date":"2017-07-21T16:00:00.000Z",
+               "properties":{
+                  "isInactive":false,
+                  "isAdjacentMonth":false,
+                  "isToday":false
+               }
+            }
+         ]
+      },
+      {
+         "days":[
+            {
+               "day":23,
+               "classes":"day calendar-day-2017-07-23 calendar-dow-0",
+               "events":[
+
+               ],
+               "date":"2017-07-22T16:00:00.000Z",
+               "properties":{
+                  "isInactive":false,
+                  "isAdjacentMonth":false,
+                  "isToday":false
+               }
+            },
+            {
+               "day":24,
+               "classes":"day calendar-day-2017-07-24 calendar-dow-1",
+               "events":[
+
+               ],
+               "date":"2017-07-23T16:00:00.000Z",
+               "properties":{
+                  "isInactive":false,
+                  "isAdjacentMonth":false,
+                  "isToday":false
+               }
+            },
+            {
+               "day":25,
+               "classes":"day calendar-day-2017-07-25 calendar-dow-2",
+               "events":[
+
+               ],
+               "date":"2017-07-24T16:00:00.000Z",
+               "properties":{
+                  "isInactive":false,
+                  "isAdjacentMonth":false,
+                  "isToday":false
+               }
+            },
+            {
+               "day":26,
+               "classes":"day calendar-day-2017-07-26 calendar-dow-3",
+               "events":[
+
+               ],
+               "date":"2017-07-25T16:00:00.000Z",
+               "properties":{
+                  "isInactive":false,
+                  "isAdjacentMonth":false,
+                  "isToday":false
+               }
+            },
+            {
+               "day":27,
+               "classes":"day calendar-day-2017-07-27 calendar-dow-4",
+               "events":[
+
+               ],
+               "date":"2017-07-26T16:00:00.000Z",
+               "properties":{
+                  "isInactive":false,
+                  "isAdjacentMonth":false,
+                  "isToday":false
+               }
+            },
+            {
+               "day":28,
+               "classes":"day calendar-day-2017-07-28 calendar-dow-5",
+               "events":[
+
+               ],
+               "date":"2017-07-27T16:00:00.000Z",
+               "properties":{
+                  "isInactive":false,
+                  "isAdjacentMonth":false,
+                  "isToday":false
+               }
+            },
+            {
+               "day":29,
+               "classes":"day calendar-day-2017-07-29 calendar-dow-6",
+               "events":[
+
+               ],
+               "date":"2017-07-28T16:00:00.000Z",
+               "properties":{
+                  "isInactive":false,
+                  "isAdjacentMonth":false,
+                  "isToday":false
+               }
+            }
+         ]
+      },
+      {
+         "days":[
+            {
+               "day":30,
+               "classes":"day calendar-day-2017-07-30 calendar-dow-0",
+               "events":[
+
+               ],
+               "date":"2017-07-29T16:00:00.000Z",
+               "properties":{
+                  "isInactive":false,
+                  "isAdjacentMonth":false,
+                  "isToday":false
+               }
+            },
+            {
+               "day":31,
+               "classes":"day calendar-day-2017-07-31 calendar-dow-1",
+               "events":[
+
+               ],
+               "date":"2017-07-30T16:00:00.000Z",
+               "properties":{
+                  "isInactive":false,
+                  "isAdjacentMonth":false,
+                  "isToday":false
+               }
+            },
+            {
+               "day":1,
+               "classes":"day adjacent-month next-month calendar-day-2017-08-01 calendar-dow-2",
+               "events":[
+
+               ],
+               "date":"2017-07-31T16:00:00.000Z",
+               "properties":{
+                  "isInactive":false,
+                  "isAdjacentMonth":true,
+                  "isToday":false
+               }
+            },
+            {
+               "day":2,
+               "classes":"day adjacent-month next-month calendar-day-2017-08-02 calendar-dow-3",
+               "events":[
+
+               ],
+               "date":"2017-08-01T16:00:00.000Z",
+               "properties":{
+                  "isInactive":false,
+                  "isAdjacentMonth":true,
+                  "isToday":false
+               }
+            },
+            {
+               "day":3,
+               "classes":"day event adjacent-month next-month calendar-day-2017-08-03 calendar-dow-4",
+               "events":[
+                  {
+                     "date":"2017-08-03",
+                     "title":"BIRTHDAY!",
+                     "_clndrStartDateObject":"2017-08-02T16:00:00.000Z",
+                     "_clndrEndDateObject":"2017-08-02T16:00:00.000Z"
+                  }
+               ],
+               "date":"2017-08-02T16:00:00.000Z",
+               "properties":{
+                  "isInactive":false,
+                  "isAdjacentMonth":true,
+                  "isToday":false
+               }
+            },
+            {
+               "day":4,
+               "classes":"day adjacent-month next-month calendar-day-2017-08-04 calendar-dow-5",
+               "events":[
+
+               ],
+               "date":"2017-08-03T16:00:00.000Z",
+               "properties":{
+                  "isInactive":false,
+                  "isAdjacentMonth":true,
+                  "isToday":false
+               }
+            },
+            {
+               "day":5,
+               "classes":"day adjacent-month next-month calendar-day-2017-08-05 calendar-dow-6",
+               "events":[
+
+               ],
+               "date":"2017-08-04T16:00:00.000Z",
+               "properties":{
+                  "isInactive":false,
+                  "isAdjacentMonth":true,
+                  "isToday":false
+               }
+            }
+         ]
+      }
+   ]
+}
